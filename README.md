@@ -1,11 +1,19 @@
 # goit-weather-app
 
+### Preparation
+You have to use your API KEY generated using service [weather api](https://www.weatherapi.com)
+Please add your API KEY in file `/src/config.js`
+```sh
+export const API_KEY = "paste your API KEY here";
+```
+
 ### How to run
 
 - Install dependencies using npm 
 ```sh
 npm install
 ```
+
 - Run UI using script from package.json
 ```sh
 npm start
